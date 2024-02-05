@@ -2,6 +2,8 @@ package com.example.Problemdomain;
 
 import java.io.Serializable;
 
+import com.example.constants.GameState;
+
 public class SudokuGame implements Serializable{
     private final GameState gameState;
     private final int[][] gridState;
